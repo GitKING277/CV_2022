@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+    <link rel="icon" href="images/icon.png" sizes="32x32">
+    <link rel="stylesheet" href="styles/slyles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <meta name="description" content="Вы просматриваете резюме Оленберга Эвальда">
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+    <script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $("a.two").fancybox();
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="main-nav">
+            <ul id="nav-list">
+		<li><a href="#CG">Компьютерная графика</a></li>
+                <li><a href="#Cur">Курсовая работа</a></li>
+                <li><a href="#Dip">Дипломная работа</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>МГУ (Московский Государственный Университет)</h1>
+	<p><b>Годы обучения:</b> Поступил в 2017 </i></p>
+	<div class="anchor" id="CG"></div>
+	    <h2>Компьютерная графика</h2>
+	    <p><b>Задание на <i>Shadertoy:</i></b> на подставке расположить откаэдр, внутри которого должно быть здание.</p>
+	<section>
+            <p><b>Требования:</b></p>
+	    <li>Рендер с использованием <i>ray-tracing</i> (трассировка лучей)</li>
+            <li>Реализовать хотя-бы два источника света</li>
+            <li>Использовать текстуры</li>
+	    <li>Использовать <i>background</i> (задний фон)</li>
+	    <li>Пар внутри октаэдра</li>
+	    <li>Мягкие тени</li>
+	    <li>Отражения</li>
+	    <li>Преломление света внутри октаэдра</li>
+        </section>
+	<div align="center">
+	    <a class="two" rel="group" title="С преломлением света" href="images/MSU/cg1.jpg"><img src="images/MSU/cg1s.jpg" /></a>
+	    <a class="two" rel="group" title="Без преломления света" href="images/MSU/cg2.jpg"><img src="images/MSU/cg2s.jpg" /></a>
+	    <p><a href="https://www.shadertoy.com/view/fs23WK#" target="_blank"><u>Ссылка на Shadertoy без преломления света</u></a></p>
+	    <p><a href="https://www.shadertoy.com/view/ssfSRB" target="_blank"><u>Ссылка на Shadertoy с преломлением света</u></a></p>
+        </div>
+
+
+
+	<div class="anchor" id="Cur"></div>
+        <section>
+	    <h2>Курсовая работа</h2>
+            <p><b>Тема:</b> Анализ возможностей аутентификации и авторизации в веб-приложениях при использовании протоколов <i>OpenID</i> и <i>OAuth 2.0</i>  </p>
+	    <p><b>Цели работы:</b></p>
+	    <li>Проанализировать требования к аутентификации и авторизации в веб-приложениях</li>
+            <li>Проанализировать возможности протоколов <i>OpenID</i> и <i>OAuth 2.0</i></li>
+            <p><b>Задачи работы:</b></p>
+	    <li>Проанализировать требования к аутентификации и авторизации в веб-приложениях</li>
+	    <li>Проанализировать возможности протоколов <i>OpenID</i> и связанные с ним уязвимости</li>
+	    <li>Проанализировать возможности протоколов <i>OAuth 2.0</i> и связанные с ним уязвимости</li>
+	    <li>Разработать приложение, демонстрирующее возможности протокола <i>OAuth 2.0</i></li>
+	
+	<div align="center">
+	    <a class="two" rel="group" title="С преломлением света" href="images/MSU/cur1.jpg"><img src="images/MSU/cur1s.jpg" /></a>
+	    <a class="two" rel="group" title="Без преломления света" href="images/MSU/cur2.jpg"><img src="images/MSU/cur2s.jpg" /></a>
+	</div>
+        </section>
+        <div class="anchor" id="PDip"></div>
+        <section>
+            <h2>Преддипломная практика</h2>
+            <p><b>Тема:</b> Разработка сценариев тестирования использования протоколов <i>OpenID</i> и <i>OAuth 2.0v с использованием <i>ZAP-прокси</i> </p>
+	    <p><b>Цели работы:</b></p>
+	    <li>Развернуть и проанализировать возможности <i>ZAP-прокси</i></li>
+            <li>Разработать сценарии тестирования <i>JWT</i></li>
+            <p><b>Задачи работы:</b></p>
+	    <li>Развернуть <i>ZAP-прокси</i></li>
+	    <li>Развернуть и проанализировать демонстративно уязвимые приложения <i>OWASP WebGoat</i> и <i>JuiceShop</i></li>
+	    <li>Разработать сценарии тестирования использования <i>OAuth 2.0</i> для <i>JWT</i> с использованием <i>ZAP-прокси</i></li>
+	    <li>Разработать сценарии тестирования использования <i>OpenID Connect</i> для <i>JWT</i> с использованием <i>ZAP-прокси</i></li>
+	    <figure><img class="simple_image" src="images/MSU/pdip.jpg" alt="Практика"></figure>
+        </section>
+
+
+
+    </main>
+    <footer>
+        <p id="footer">2022</p>
+        <a class="footer-img" href="https://github.com/GitKING277/" target="_blank"><img src="images/github-logo.png" alt="github logo" height="64" width="64"></a>
+        
+    </footer>
+    <script>
+        function NavRenameFunc() {
+            var x = document.getElementById("main-nav");
+            if (x.className == "nav") {
+                x.className += "-responsive";
+            } else {
+                x.className = "nav";
+            }
+        }
+    </script>
+    <script>
+        console.log("⠀⠀⠀⠀⠀⠀⢀⣤⣶⣿⣿⣿⣿⣶⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+	console.log("⠀⠀⠀⠀⠀⣠⣿⡏⠙⠿⠛⠛⠿⠛⠹⣿⣆⠀⠀⠀⠀⢀⣠⣤⣀⠀⣀⠀⠀⠀⠀⢀⡀⠀⠀⣀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀");
+	console.log("⠀⠀⠀⠀⢠⣿⣿⠃⠀⠀⠀⠀⠀⠀⠈⣿⣿⡆⠀⠀⢠⣿⠋⠉⠉⠀⣛⡃⣸⣧⡀⢸⡇⠀⠀⣿⠀⣀⠀⢀⡀⢸⣇⣀⣀⠀⠀⠀⠀⠀");
+	console.log("⠀⠀⠀⠀⢸⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⡇⠀⠀⢸⣿⠀⠿⣿⡇⣿⡇⢹⣿⠁⢸⡟⠛⠛⣿⠀⣿⠀⢸⡇⢸⡏⠉⣿⡆⠀⠀⠀⠀");
+	console.log("⠀⠀⠀⠀⠈⣿⠿⣦⣀⠀⠀⠀⠀⣀⣴⣿⣿⠃⠀⠀⠀⠻⣶⣶⡿⠇⣿⡇⠸⣿⡄⢸⡇⠀⠀⣿⠀⢿⣤⡾⡇⢸⡷⣤⡿⠃⠀⠀⠀⠀");
+	console.log("⠀⠀⠀⠀⠀⠘⢿⣜⠛⠃⠀ ⠘⣿⣿⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+	console.log("⠀⠀⠀⠀⠀⠀⠀⠉⠻⠇⠀⠀⠀⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+    </script>
+</body>
+</html>
